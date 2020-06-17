@@ -35,7 +35,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://mzhaonanq.github.io/" />
-<meta property="og:updated_time" content="2020-06-16T14:45:49+08:00" />
+<meta property="og:updated_time" content="2020-06-17T10:46:02+08:00" />
 <meta itemprop="name" content="Bruce的博客">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Bruce的博客"/>
@@ -127,6 +127,39 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://mzhaonanq.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="color-inherit dim link">
+            如何用hugo搭建博客
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          首先进入Hugo官网
+点击 Quick Start
+步骤一：安装Hugo Mac用户在终端运行
+brew install hugo hugo version windows用户进入hugo发布页面，下载hugo_extended_版本号_Windows-64bit.zip，解压，再将装有hugo.exe的路径添加到系统环境变量中，最后打开终端运行hugo version
+步骤二 在终端创建一个空目录输入hugo new site quickstart &lsquo;quickstart&rsquo; 替换成 &lsquo;github用户名.github.io-creator&rsquo; 按回车 会生成一个 github用户名.github.io-creator 的目录
+步骤三  code github用户名.github.io-creator 目录 git init (添加本地仓库) git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke (下载主题) echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml(配置主题)  步骤四 hugo new posts/文件名.md
+文章写好后把 draft 后面的 true 改成 false
+步骤五 hugo server -D
+步骤六 code config.toml 看见如下代码，标题、语言、主题 都在这里设置，最后要将baseURL中的内容替换为自己 GitHub Pages 显示的网址
+baseURL = &quot;https://example.
+        </div>
+          <a href="https://mzhaonanq.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="https://mzhaonanq.github.io/posts/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%B8%A6%E5%9B%BE%E7%89%87%E7%9A%84%E5%8D%9A%E5%AE%A2/" class="color-inherit dim link">
             第三篇带图片的博客
             </a>
@@ -168,33 +201,25 @@
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://mzhaonanq.github.io/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/" class="color-inherit dim link">
-            开博大吉
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          我搭建了我的第一个博客 希望写出好文章
-哈哈哈哈哈
-        </div>
-          <a href="https://mzhaonanq.github.io/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="https://mzhaonanq.github.io/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/" class="link black dim">
+              开博大吉
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="https://mzhaonanq.github.io/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
+        
+        </section>
       
 
       </div>
