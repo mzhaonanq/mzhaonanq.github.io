@@ -17,16 +17,16 @@
       <pubDate>Wed, 17 Jun 2020 10:46:02 +0800</pubDate>
       
       <guid>https://mzhaonanq.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>首先进入Hugo官网
-点击 Quick Start
+      <description>进入Hugo官网
+点击 Quick Start 可以查看博客前七步的原文和外代码
 步骤一：安装Hugo Mac用户在终端运行
-brew install hugo hugo version windows用户进入hugo发布页面，下载hugo_extended_版本号_Windows-64bit.zip，解压，再将装有hugo.exe的路径添加到系统环境变量中，最后打开终端运行hugo version
+brew install hugo hugo version windows用户进入hugo发布页面，下载hugo_extended_xxxx_Windows-64bit.zip，解压，再将装有hugo.exe的路径添加到系统环境变量中，最后打开终端运行hugo version
 步骤二 在终端创建一个空目录输入hugo new site quickstart &amp;lsquo;quickstart&amp;rsquo; 替换成 &amp;lsquo;github用户名.github.io-creator&amp;rsquo; 按回车 会生成一个 github用户名.github.io-creator 的目录
-步骤三  code github用户名.github.io-creator 目录 git init (添加本地仓库) git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke (下载主题) echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml(配置主题)  步骤四 hugo new posts/文件名.md
+步骤三  code github用户名.github.io-creator 目录 git init(添加本地仓库) git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke (下载主题) echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml(配置主题) 步骤四 hugo new posts/文件名.md
 文章写好后把 draft 后面的 true 改成 false
 步骤五 hugo server -D
 步骤六 code config.toml 看见如下代码，标题、语言、主题 都在这里设置，最后要将baseURL中的内容替换为自己 GitHub Pages 显示的网址
-baseURL = &amp;quot;https://example.</description>
+baseURL = &amp;quot;https://example.org/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;My New Hugo Site&amp;quot; theme = &amp;quot;ananke&amp;quot; 步骤七 hugo -D (会创建一个新的目录名叫public)</description>
     </item>
     
     <item>
