@@ -29,13 +29,12 @@ baseURL = &amp;quot;https://example.</description>
     </item>
     
     <item>
-      <title>第三篇带图片的博客</title>
+      <title>第三篇博客</title>
       <link>https://mzhaonanq.github.io/posts/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%B8%A6%E5%9B%BE%E7%89%87%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Tue, 16 Jun 2020 14:45:49 +0800</pubDate>
       
       <guid>https://mzhaonanq.github.io/posts/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%B8%A6%E5%9B%BE%E7%89%87%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
-      <description>我的博客网址是 MyBlog
-专辑图1</description>
+      <description>我的博客网址是 MyBlog</description>
     </item>
     
     <item>
@@ -44,7 +43,7 @@ baseURL = &amp;quot;https://example.</description>
       <pubDate>Tue, 16 Jun 2020 14:25:38 +0800</pubDate>
       
       <guid>https://mzhaonanq.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>在学习如何上传第二篇博客</description>
+      <description>第二篇博客</description>
     </item>
     
     <item>
@@ -53,8 +52,16 @@ baseURL = &amp;quot;https://example.</description>
       <pubDate>Tue, 16 Jun 2020 11:26:36 +0800</pubDate>
       
       <guid>https://mzhaonanq.github.io/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      <description>我搭建了我的第一个博客 希望写出好文章
-哈哈哈哈哈</description>
+      <description>我搭建了我的第一个博客 哈哈哈哈哈</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mzhaonanq.github.io/posts/%E7%AC%AC%E5%9B%9B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mzhaonanq.github.io/posts/%E7%AC%AC%E5%9B%9B/</guid>
+      <description></description>
     </item>
     
   </channel>
